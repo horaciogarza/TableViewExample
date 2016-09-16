@@ -12,6 +12,7 @@
 		47CDCFCD1D8C99E300CE4E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CDCFCB1D8C99E300CE4E79 /* Main.storyboard */; };
 		47CDCFCF1D8C99E300CE4E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CDCFCE1D8C99E300CE4E79 /* Assets.xcassets */; };
 		47CDCFD21D8C99E300CE4E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CDCFD01D8C99E300CE4E79 /* LaunchScreen.storyboard */; };
+		47CDCFDA1D8CA2A000CE4E79 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CDCFD91D8CA2A000CE4E79 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		47CDCFCE1D8C99E300CE4E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CDCFD11D8C99E300CE4E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47CDCFD31D8C99E300CE4E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CDCFD91D8CA2A000CE4E79 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		47CDCFBB1D8C99E300CE4E79 = {
 			isa = PBXGroup;
 			children = (
+				47CDCFD91D8CA2A000CE4E79 /* SecondViewController.swift */,
 				47CDCFC61D8C99E300CE4E79 /* TableViewExample */,
 				47CDCFC51D8C99E300CE4E79 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47CDCFDA1D8CA2A000CE4E79 /* SecondViewController.swift in Sources */,
 				47CDCFCA1D8C99E300CE4E79 /* ViewController.swift in Sources */,
 				47CDCFC81D8C99E300CE4E79 /* AppDelegate.swift in Sources */,
 			);
